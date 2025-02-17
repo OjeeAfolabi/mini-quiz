@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+@import './base.css';
+
+@media only screen and (max-width: 640px) {
+  #body {
+    margin: 1rem;
+    padding: 1rem;
+    border: 52x solid red;
+  }
+  #anss {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    width: 50%;
+  }
+  #ans{
+    padding: 10px;
+  }
+}
